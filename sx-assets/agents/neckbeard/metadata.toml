@@ -1,0 +1,11 @@
+metadata-version = "1.0"
+
+[asset]
+name = "neckbeard"
+version = "0.1.0"
+type = "agent"
+description = "Backend developer for APIs, data models, services, auth, infra, migrations, and tests."
+clients = ["claude-code"]
+
+[agent]
+prompt-file = "AGENT.md"

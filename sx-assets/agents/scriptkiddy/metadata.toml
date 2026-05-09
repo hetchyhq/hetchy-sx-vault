@@ -1,0 +1,11 @@
+metadata-version = "1.0"
+
+[asset]
+name = "scriptkiddy"
+version = "0.1.0"
+type = "agent"
+description = "Frontend developer for UI implementation, client behavior, accessibility, and browser validation."
+clients = ["claude-code"]
+
+[agent]
+prompt-file = "AGENT.md"

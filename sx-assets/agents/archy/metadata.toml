@@ -1,0 +1,11 @@
+metadata-version = "1.0"
+
+[asset]
+name = "archy"
+version = "0.1.0"
+type = "agent"
+description = "Software architect for system design, decomposition, migrations, and cross-cutting changes."
+clients = ["claude-code"]
+
+[agent]
+prompt-file = "AGENT.md"

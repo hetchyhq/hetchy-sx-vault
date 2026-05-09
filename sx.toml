@@ -1,0 +1,205 @@
+schema_version = 1
+created_by = "hetchy"
+
+[[assets]]
+  name = "hetchy-delivery"
+  version = "0.1.0"
+  type = "skill"
+  clients = ["claude-code"]
+  [assets.source-path]
+    path = "sx-assets/skills/hetchy-delivery"
+
+  [[assets.scopes]]
+    kind = "org"
+
+[[assets]]
+  name = "neckbeard"
+  version = "0.1.0"
+  type = "agent"
+  clients = ["claude-code"]
+  [assets.source-path]
+    path = "sx-assets/agents/neckbeard"
+
+  [[assets.scopes]]
+    kind = "bot"
+    bot = "neckbeard"
+
+[[assets]]
+  name = "scriptkiddy"
+  version = "0.1.0"
+  type = "agent"
+  clients = ["claude-code"]
+  [assets.source-path]
+    path = "sx-assets/agents/scriptkiddy"
+
+  [[assets.scopes]]
+    kind = "bot"
+    bot = "scriptkiddy"
+
+[[assets]]
+  name = "archy"
+  version = "0.1.0"
+  type = "agent"
+  clients = ["claude-code"]
+  [assets.source-path]
+    path = "sx-assets/agents/archy"
+
+  [[assets.scopes]]
+    kind = "bot"
+    bot = "archy"
+
+[[assets]]
+  name = "golang-pro"
+  version = "1"
+  type = "skill"
+  clients = ["claude-code"]
+  [assets.source-path]
+    path = "assets/golang-pro/1"
+
+  [[assets.scopes]]
+    kind = "bot"
+    bot = "neckbeard"
+
+[[assets]]
+  name = "golang-testing"
+  version = "1"
+  type = "skill"
+  clients = ["claude-code"]
+  [assets.source-path]
+    path = "assets/golang-testing/1"
+
+  [[assets.scopes]]
+    kind = "bot"
+    bot = "neckbeard"
+
+[[assets]]
+  name = "neon-postgres"
+  version = "1"
+  type = "skill"
+  clients = ["claude-code"]
+  [assets.source-path]
+    path = "assets/neon-postgres/1"
+
+  [[assets.scopes]]
+    kind = "bot"
+    bot = "neckbeard"
+
+[[assets]]
+  name = "frontend-design"
+  version = "1"
+  type = "skill"
+  clients = ["claude-code"]
+  [assets.source-path]
+    path = "assets/frontend-design/1"
+
+  [[assets.scopes]]
+    kind = "bot"
+    bot = "scriptkiddy"
+
+[[assets]]
+  name = "react-best-practices"
+  version = "1"
+  type = "skill"
+  clients = ["claude-code"]
+  [assets.source-path]
+    path = "assets/react-best-practices/1"
+
+  [[assets.scopes]]
+    kind = "bot"
+    bot = "scriptkiddy"
+
+[[assets]]
+  name = "webapp-testing"
+  version = "1"
+  type = "skill"
+  clients = ["claude-code"]
+  [assets.source-path]
+    path = "assets/webapp-testing/1"
+
+  [[assets.scopes]]
+    kind = "bot"
+    bot = "scriptkiddy"
+
+[[assets]]
+  name = "database-migrations"
+  version = "1"
+  type = "skill"
+  clients = ["claude-code"]
+  [assets.source-path]
+    path = "assets/database-migrations/1"
+
+  [[assets.scopes]]
+    kind = "bot"
+    bot = "neckbeard"
+
+[[assets]]
+  name = "extract-design-system"
+  version = "1"
+  type = "skill"
+  clients = ["claude-code"]
+  [assets.source-path]
+    path = "assets/extract-design-system/1"
+
+  [[assets.scopes]]
+    kind = "bot"
+    bot = "scriptkiddy"
+
+[[assets]]
+  name = "improve-codebase-architecture"
+  version = "1"
+  type = "skill"
+  clients = ["claude-code"]
+  [assets.source-path]
+    path = "assets/improve-codebase-architecture/1"
+
+  [[assets.scopes]]
+    kind = "bot"
+    bot = "archy"
+
+[[assets]]
+  name = "architecture-blueprint-generator"
+  version = "1"
+  type = "skill"
+  clients = ["claude-code"]
+  [assets.source-path]
+    path = "assets/architecture-blueprint-generator/1"
+
+  [[assets.scopes]]
+    kind = "bot"
+    bot = "archy"
+
+[[assets]]
+  name = "documentation-and-adrs"
+  version = "1"
+  type = "skill"
+  clients = ["claude-code"]
+  [assets.source-path]
+    path = "assets/documentation-and-adrs/1"
+
+  [[assets.scopes]]
+    kind = "bot"
+    bot = "archy"
+
+[[assets]]
+  name = "software-architecture"
+  version = "1"
+  type = "skill"
+  clients = ["claude-code"]
+  [assets.source-path]
+    path = "assets/software-architecture/1"
+
+  [[assets.scopes]]
+    kind = "bot"
+    bot = "archy"
+
+[[bots]]
+  name = "neckbeard"
+  description = "Backend developer for APIs, data models, services, auth, infra, migrations, and tests."
+
+[[bots]]
+  name = "scriptkiddy"
+  description = "Frontend developer for UI implementation, client behavior, accessibility, and browser validation."
+
+[[bots]]
+  name = "archy"
+  description = "Software architect for system design, decomposition, migrations, and cross-cutting changes."

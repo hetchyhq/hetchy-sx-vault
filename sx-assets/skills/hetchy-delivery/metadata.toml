@@ -1,0 +1,11 @@
+metadata-version = "1.0"
+
+[asset]
+name = "hetchy-delivery"
+version = "0.1.0"
+type = "skill"
+description = "Shared Hetchy delivery workflow for producing reviewable PRs."
+clients = ["claude-code"]
+
+[skill]
+prompt-file = "SKILL.md"
