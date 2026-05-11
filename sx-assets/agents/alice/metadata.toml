@@ -1,7 +1,7 @@
 metadata-version = "1.0"
 
 [asset]
-name = "scriptkiddy"
+name = "alice"
 version = "0.1.0"
 type = "agent"
 description = "Frontend developer for UI implementation, client behavior, accessibility, and browser validation."

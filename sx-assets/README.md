@@ -4,10 +4,10 @@ This directory contains the seed assets for Hetchy's public sx vault.
 The root `sx.toml` points at these directories with `source-path` entries
 so the repository itself can be used as `HETCHY_SX_PUBLIC_VAULT_URL`.
 
-Built-in Hetchy agents use matching sx bot identities:
+Seeded Hetchy agents use matching sx bot identities:
 
-- `neckbeard`
-- `scriptkiddy`
+- `bob`
+- `alice`
 - `archy`
 
 The root vault also vendors high-usage skills.sh assets that support each

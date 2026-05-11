@@ -13,28 +13,28 @@ created_by = "hetchy"
     kind = "org"
 
 [[assets]]
-  name = "neckbeard"
+  name = "bob"
   version = "0.1.0"
   type = "agent"
   clients = ["claude-code"]
   [assets.source-path]
-    path = "sx-assets/agents/neckbeard"
+    path = "sx-assets/agents/bob"
 
   [[assets.scopes]]
     kind = "bot"
-    bot = "neckbeard"
+    bot = "bob"
 
 [[assets]]
-  name = "scriptkiddy"
+  name = "alice"
   version = "0.1.0"
   type = "agent"
   clients = ["claude-code"]
   [assets.source-path]
-    path = "sx-assets/agents/scriptkiddy"
+    path = "sx-assets/agents/alice"
 
   [[assets.scopes]]
     kind = "bot"
-    bot = "scriptkiddy"
+    bot = "alice"
 
 [[assets]]
   name = "archy"
@@ -58,7 +58,7 @@ created_by = "hetchy"
 
   [[assets.scopes]]
     kind = "bot"
-    bot = "neckbeard"
+    bot = "bob"
 
 [[assets]]
   name = "golang-testing"
@@ -70,7 +70,7 @@ created_by = "hetchy"
 
   [[assets.scopes]]
     kind = "bot"
-    bot = "neckbeard"
+    bot = "bob"
 
 [[assets]]
   name = "neon-postgres"
@@ -82,7 +82,7 @@ created_by = "hetchy"
 
   [[assets.scopes]]
     kind = "bot"
-    bot = "neckbeard"
+    bot = "bob"
 
 [[assets]]
   name = "frontend-design"
@@ -94,7 +94,7 @@ created_by = "hetchy"
 
   [[assets.scopes]]
     kind = "bot"
-    bot = "scriptkiddy"
+    bot = "alice"
 
 [[assets]]
   name = "react-best-practices"
@@ -106,7 +106,7 @@ created_by = "hetchy"
 
   [[assets.scopes]]
     kind = "bot"
-    bot = "scriptkiddy"
+    bot = "alice"
 
 [[assets]]
   name = "webapp-testing"
@@ -118,7 +118,7 @@ created_by = "hetchy"
 
   [[assets.scopes]]
     kind = "bot"
-    bot = "scriptkiddy"
+    bot = "alice"
 
 [[assets]]
   name = "database-migrations"
@@ -130,7 +130,7 @@ created_by = "hetchy"
 
   [[assets.scopes]]
     kind = "bot"
-    bot = "neckbeard"
+    bot = "bob"
 
 [[assets]]
   name = "extract-design-system"
@@ -142,7 +142,7 @@ created_by = "hetchy"
 
   [[assets.scopes]]
     kind = "bot"
-    bot = "scriptkiddy"
+    bot = "alice"
 
 [[assets]]
   name = "improve-codebase-architecture"
@@ -193,11 +193,11 @@ created_by = "hetchy"
     bot = "archy"
 
 [[bots]]
-  name = "neckbeard"
+  name = "bob"
   description = "Backend developer for APIs, data models, services, auth, infra, migrations, and tests."
 
 [[bots]]
-  name = "scriptkiddy"
+  name = "alice"
   description = "Frontend developer for UI implementation, client behavior, accessibility, and browser validation."
 
 [[bots]]
